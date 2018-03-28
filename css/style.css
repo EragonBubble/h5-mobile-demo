@@ -3,10 +3,10 @@
 	padding: 0;
 }
 .title-group{
-	font-size: 28px;
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
+	font-size: 2.5em;
+    text-align: center;
+    height: 1.5em;
+    line-height: 1.5em;
 	background: green;
 }
 @media screen and (min-device-width:320px){   
@@ -26,39 +26,39 @@
 }
 .keyboard-group{
 	display: initial;
-	position: absolute;
-	bottom: 0px;
-	width: calc(100%);
-	line-height: 0;
-	height: 320px;
-	min-height: 320px;
-	max-height: 320px;
-	background-color: lightgray;
-	padding: 5px;
-    border: 1px solid lightgray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 0;
+    height: 16.5em;
+    min-height: 16.5em;
+    max-height: 16.5em;
+    background-color: lightgray;
+    padding: 0.25em;
+    border: 0.05em solid lightgray;
 }
 .keyboard-group .keyboard-item{
     position: relative;
     display: inline-block;
     width: 10%;
-    height: 40px;
-    line-height: 40px;
+    height: 1.5em;
+    line-height: 1.5em;
     background-color: papayawhip;
-    font-size: 28px;
+    font-size: 1.5em;
     text-align: center;
     vertical-align: middle;
-    margin: 0 0 5px 0;
+    margin: 0 0 0.25em 0;
 }
 .wrap-input-group{
-	text-align: center;
-	margin: 10px 0;
+    text-align: center;
+    margin: 0.5em 0;
 }
 .wrap-input-content{
     display: inline-block;
     width: 55%;
-    height: 48px;
-    line-height: 30px;
-    font-size: 26px;
-    border: 1px solid gray;
-    border-radius: 3px;
+    height: 2.0em;
+    line-height: 2.0em;
+    font-size: 1.5em;
+    border: 0.05em solid gray;
+    border-radius: 0.05em;
 }
